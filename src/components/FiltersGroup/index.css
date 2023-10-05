@@ -1,0 +1,35 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+.catHed {
+  font-weight: bold;
+  color: red;
+}
+.catagory {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.catName {
+  margin: 0px;
+}
+.catBtn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.rate-image {
+  height: 20px;
+  width: 150px;
+}
